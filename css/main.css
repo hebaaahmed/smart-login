@@ -1,0 +1,32 @@
+body {
+  background-color: #24353f;
+  font-family: "Titillium Web", sans-serif;
+}
+section h1 {
+  color: #17a2b8;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 500;
+
+}
+
+input{
+  background-color: transparent !important;
+}
+::placeholder{
+  color:#ced4da !important;
+ 
+ 
+}
+.form-control:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow:none;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
